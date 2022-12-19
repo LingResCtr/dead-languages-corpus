@@ -1,5 +1,8 @@
 import argparse
 from pathlib import Path
+from zipfile import PyZipFile
+
+from corpus import load_corpus
 
 
 def main(zip_path: Path, temp_folder: Path, final_folder: Path) -> None:
@@ -11,6 +14,23 @@ def main(zip_path: Path, temp_folder: Path, final_folder: Path) -> None:
         f"Converting data in {zip_path} to processed data in {final_folder}, using "
         f"{temp_folder} for intermediate files"
     )
+
+    # extract contents of zip file
+    extracted_files = extract(zip_path=zip_path, temp_folder=temp_folder)
+    print(f"Extracted {len(extracted_files)} files to {temp_folder}:")
+    for path in extracted_files:
+        print(f"- {path}")
+
+    # load the unprocessed corpus
+    unprocessed_corpus = load_corpus(extracted_files)
+
+
+def extract(zip_path: Path, temp_folder: Path) -> list[Path]:
+    """Extract files from the zip and return the list of files"""
+    zip = PyZipFile(zip_path)
+    names = zip.namelist()
+    zip.extractall(temp_folder)
+    return [temp_folder / name for name in names]
 
 
 def create_arg_parser() -> argparse.ArgumentParser:
