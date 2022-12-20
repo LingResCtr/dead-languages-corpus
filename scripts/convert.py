@@ -2,7 +2,9 @@ import argparse
 from pathlib import Path
 from zipfile import PyZipFile
 
+from clean import clean_corpus
 from corpus import load_corpus
+from sentences import parse_sentences
 
 
 def main(zip_path: Path, temp_folder: Path, final_folder: Path) -> None:
@@ -23,6 +25,12 @@ def main(zip_path: Path, temp_folder: Path, final_folder: Path) -> None:
 
     # load the unprocessed corpus
     unprocessed_corpus = load_corpus(extracted_files)
+
+    # clean the corpus
+    cleaned_corpus = clean_corpus(unprocessed_corpus)
+
+    # create sentences
+    sentences = parse_sentences(cleaned_corpus)
 
 
 def extract(zip_path: Path, temp_folder: Path) -> list[Path]:

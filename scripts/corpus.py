@@ -5,11 +5,11 @@ from pathlib import Path
 from typing import Optional, Type, get_args
 
 
-def str_or_none(s):
+def str_or_none(s: str) -> Optional[str]:
     return None if len(s) == 0 else s
 
 
-def int_or_none(s):
+def int_or_none(s: str) -> Optional[int]:
     return None if s == "NULL" else int(s)
 
 
@@ -200,21 +200,21 @@ class Series(CorpusRow):
 
 
 @dataclass
-class UnprocessedCorpus:
-    element: list[Element]
-    gloss: list[Gloss]
-    glossed_text: list[GlossedText]
-    grammar: list[Grammar]
-    head_word: list[HeadWord]
-    language: list[Language]
-    lesson: list[Lesson]
-    series: list[Series]
+class Corpus:
+    element: dict[int, Element]
+    gloss: dict[int, Gloss]
+    glossed_text: dict[int, GlossedText]
+    grammar: dict[int, Grammar]
+    head_word: dict[int, HeadWord]
+    language: dict[int, Language]
+    lesson: dict[int, Lesson]
+    series: dict[int, Series]
 
 
-def load_corpus(csv_files: list[Path]) -> UnprocessedCorpus:
+def load_corpus(csv_files: list[Path]) -> Corpus:
     """Load the corpus from a list of CSV files"""
     # create a map from the corpus part name to the type of its rows
-    corpus_parts = {f.name: get_args(f.type)[0] for f in fields(UnprocessedCorpus)}
+    corpus_parts = {f.name: get_args(f.type)[1] for f in fields(Corpus)}
     parts = {}
 
     # for each extracted
@@ -225,21 +225,22 @@ def load_corpus(csv_files: list[Path]) -> UnprocessedCorpus:
                 parts[part] = load_corpus_part(row_type, file)
                 continue
 
-    return UnprocessedCorpus(**parts)
+    return Corpus(**parts)
 
 
-def load_corpus_part(row_type: Type[CorpusRow], path: Path) -> list[CorpusRow]:
+def load_corpus_part(row_type: Type[CorpusRow], path: Path) -> dict[int, CorpusRow]:
     """Read a CSV file and return a list of rows, parsed as the expected type"""
     header = None
-    rows = []
+    rows = {}
 
     with open(path) as csvfile:
         reader = csv.reader(csvfile)
-        for row in reader:
+        for csv_row in reader:
             if header is None:
-                header = row
+                header = csv_row
             else:
-                assert len(header) == len(row)
-                rows.append(row_type.from_row(row))
+                assert len(header) == len(csv_row)
+                corpus_row = row_type.from_row(csv_row)
+                rows[corpus_row.id] = corpus_row
 
     return rows
