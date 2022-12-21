@@ -47,7 +47,7 @@ The [BCP-47 codes](https://www.w3.org/International/articles/bcp47/) included in
 
 ### Curation Rationale
 
-TBD: What need motivated the creation of this dataset? What are some of the reasons underlying the major choices involved in putting it together?
+The goal of this project was to ensure that the LRC's data collection was accessible in a modern, open-source, and developer-friendly format.
 
 ### Source Data
 
