@@ -6,12 +6,16 @@ from corpus import Corpus, Element, Gloss, HeadWord, Language
 
 
 @dataclass
+class POS:
+    part_of_speech: str
+    analysis: Optional[str]
+
+@dataclass
 class Token:
     text: str
-    parts_of_speech: list[str]
-    parts_of_speech_ext: list[str]
+    parts_of_speech: list[POS]
     en_text: str
-    en_keywords: list[str]
+    en_keywords: list[list[str]]
 
 
 @dataclass
@@ -116,27 +120,29 @@ def get_glossed_text_to_tokens_map(
 ) -> dict[int, list[Token]]:
     """Creates a map of glossed text ids to lists of tokens in the text"""
     id_to_tokens = {}
-    for id, row in corpus.glossed_text.items():
+    for id in corpus.glossed_text.keys():
         glosses = glossed_text_to_glosses[id]
         tokens = []
         for gloss in glosses:
-            parts_of_speech = [
-                element.part_of_speech for element in gloss_to_elements[gloss.id]
-            ]
-            parts_of_speech_ext = [
-                element.part_of_speech_ext for element in gloss_to_elements[gloss.id]
-            ]
+            parts_of_speech = []
+            for element in gloss_to_elements[gloss.id]:
+                parts_of_speech.append(
+                    POS(
+                        part_of_speech=element.part_of_speech,
+                        analysis=element.analysis
+                    )
+                )
             keywords = [
-                corpus.head_word[element.head_word_id].keywords.split(",")
+                corpus.head_word[element.head_word_id].keywords
                 for element in gloss_to_elements[gloss.id]
             ]
             token = Token(
                 text=gloss.surface_form,
                 parts_of_speech=parts_of_speech,
-                parts_of_speech_ext=parts_of_speech_ext,
                 en_text=gloss.contextual_gloss,
                 en_keywords=keywords
             )
             tokens.append(token)
+        id_to_tokens[id] = tokens
 
     return id_to_tokens

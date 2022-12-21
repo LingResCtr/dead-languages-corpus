@@ -5,12 +5,22 @@ from pathlib import Path
 from typing import Optional, Type, get_args
 
 
+class NullIntError(Exception):
+    pass
+
+
 def str_or_none(s: str) -> Optional[str]:
     return None if len(s) == 0 else s
 
 
 def int_or_none(s: str) -> Optional[int]:
     return None if s == "NULL" else int(s)
+
+
+def int_or_raise(s: str) -> int:
+    if s == "NULL":
+        raise NullIntError("Cannot have a NULL value for int")
+    return int(s)
 
 
 class CorpusRow(ABC):
@@ -50,8 +60,8 @@ class Gloss(CorpusRow):
     comments: Optional[str]             # a comment about the translation
     underlying_form: Optional[str]      # root of the word
     language_id: int                    # maps to Language class
-    glossed_text_id: Optional[int]      # maps to GlossedText class
-    order: Optional[int]                # order of the word in the sentence (GlossedText)
+    glossed_text_id: int                # maps to GlossedText class
+    order: int                          # order of the word in the sentence (GlossedText)
 
     @staticmethod
     def from_row(row: list[str]) -> "Gloss":
@@ -62,8 +72,8 @@ class Gloss(CorpusRow):
             comments=str_or_none(row[3]),
             underlying_form=str_or_none(row[4]),
             language_id=int(row[5]),
-            glossed_text_id=int_or_none(row[10]),
-            order=int_or_none(row[11]),
+            glossed_text_id=int_or_raise(row[10]),
+            order=int_or_raise(row[11]),
         )
 
 
@@ -240,7 +250,12 @@ def load_corpus_part(row_type: Type[CorpusRow], path: Path) -> dict[int, CorpusR
                 header = csv_row
             else:
                 assert len(header) == len(csv_row)
-                corpus_row = row_type.from_row(csv_row)
+                try:
+                    corpus_row = row_type.from_row(csv_row)
+                except NullIntError:
+                    if row_type != Gloss:
+                        raise
+                    continue
                 rows[corpus_row.id] = corpus_row
 
     return rows
