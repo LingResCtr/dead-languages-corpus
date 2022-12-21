@@ -24,7 +24,7 @@ def clean_html(glossed_text: dict[int, GlossedText]) -> dict[int, GlossedText]:
 
     See the "Cleaning HTML.ipynb" notebook for more information.
     """
-    br = re.compile("<br ?/?> ?")
+    br = re.compile("<br ?/?>")
     line_number = re.compile("^<((font[^<]+</font>)|(i[^<]+</i>)) (- )?")
     omit = re.compile("\[<i[^<]+omitted[^>]+>\]")
     p = re.compile("^[^<]+<p>[^)]+\) ")
@@ -53,12 +53,14 @@ def clean_whitespace(glossed_text: dict[int, GlossedText]) -> dict[int, GlossedT
     single space. Run this after clean_html() for best results with <br> tags, etc
     """
     newline = re.compile(r"\s*\n\s*")
+    nbsp = re.compile("&nbsp;")
     whitespace = re.compile(r"\s+")
 
     ret = {}
     for id, row in glossed_text.items():
         text = row.glossed_text.strip()
         text = newline.sub("\\n", text)
+        text = nbsp.sub(" ", text)
         text = whitespace.sub(" ", text)
 
         row.glossed_text = text

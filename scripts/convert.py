@@ -32,6 +32,10 @@ def main(zip_path: Path, temp_folder: Path, final_folder: Path) -> None:
     # create sentences
     sentences = parse_sentences(cleaned_corpus)
 
+    print(sentences[0])
+    print("------------")
+    print(sentences[100])
+
 
 def extract(zip_path: Path, temp_folder: Path) -> list[Path]:
     """Extract files from the zip and return the list of files"""
