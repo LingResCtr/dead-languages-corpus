@@ -13,7 +13,7 @@ YAML tags:
 
 ### Dataset Summary
 
-A data set of historical Indo-European languages, from the Linguistics Research Center at the University of Texas at Austin. 
+A data set of historical Indo-European languages, from the [Linguistics Research Center](https://liberalarts.utexas.edu/lrc/) ([LRC](https://liberalarts.utexas.edu/lrc/)) at the [University of Texas at Austin](https://www.utexas.edu/). 
 
 TBD: its intended use and the supported tasks.
 
@@ -23,9 +23,9 @@ TBD: its intended use and the supported tasks.
 
 ### Languages
 
-Languages include: Albanian, Armenian (both Romanized and non-Romanized), Baltic, Old English, Old French, Gothic, Classical and New Testament Greek, Hittite, Old Iranian, Old Irish, Latin, Old Norse, Old Russian, Sanskrit, Old Slavonic, Tocharian A, and Tocharian B.  
+Languages include: Albanian, Classical Armenian (in both original script and Romanized transliteration), Baltic (Lithuanian and Latvian), Old English, Old French, Gothic, Classical and New Testament Greek, Hittite, Old Iranian (Avestan and Old Persian), Old Irish, Latin, Old Norse, Old Russian, Vedic Sanskrit, Old Church Slavonic, Tocharian A, and Tocharian B.  
 
-The languages come from snippets of prose, poetry, and biblical texts.
+The language data comes from excerpts of original documents containing prose, poetry, and biblical texts.
 
 The [BCP-47 codes](https://www.w3.org/International/articles/bcp47/) included in this dataseta are: alb, arm, arm-Armn, bat, ang, fro, got, grc-Grek, hit-Latn, ira, sga, lat, non, rus-Cyrl, san-Latn, chu-Cyrs, xto-Latn, txb-Latn.
 
@@ -47,21 +47,21 @@ The [BCP-47 codes](https://www.w3.org/International/articles/bcp47/) included in
 
 ### Curation Rationale
 
-The goal of this project was to ensure that the LRC's data collection was accessible in a modern, open-source, and developer-friendly format.
+The goal of this project is to ensure that the LRC's data collection is accessible in a modern, open-source, and developer-friendly format.
 
 ### Source Data
 
-The source data was the original web-based collection of language lessons on the Linguistics Research Center [website](https://lrc.la.utexas.edu/eieol).
+The source data comes from the [LRC](https://liberalarts.utexas.edu/lrc/)'s [Early Indo-European OnLine](https://lrc.la.utexas.edu/eieol) ([EIEOL](https://lrc.la.utexas.edu/eieol)) collection of language lessons.
 
 #### Initial Data Collection and Normalization
 
-[More Information Needed]
+Initial data was downloaded on 2022/11/17.  The scripts included can be run on subsequent data imports collected in the `raw/` subdirectory.
 
 #### Who are the source language producers?
 
 The data was originally produced and collected by humans. 
 
-The lessons were originally compiled as part of a broader education project, and the authors were academics working at the University of Texas.
+The lessons were originally compiled as part of a broader education project. Authors were scholars working at or with the University of Texas at Austin.
 
 ### Annotations
 
@@ -97,9 +97,9 @@ The data represents societies from eras when sexism, racism, and ableism were th
 
 ### Dataset Curators
 
-The texts were originally compiled by a variety of authors at the University of Texas, including: Brigitte L.M. Bauer, Angelo Costanz, Brian Joseph, Todd B. Krause, Winfred P. Lehmann, Jonathan Slocum, Sandra B. Straubhaar, Patrizia de Bernardo Stempel , Virginija Vasiliauskiene, and Lilita Zalkalns.
+The texts were originally compiled by a variety of authors working at or with the University of Texas, including: Brigitte L.M. Bauer, Angelo Costanz, Scott Harvey, Brian Joseph, Todd B. Krause, Winfred P. Lehmann, Jonathan Slocum, Sandra B. Straubhaar, Patrizia de Bernardo Stempel, Virginija Vasiliauskiene, and Lilita Zalkalns.
 
-Todd Krause, Amanda Krauss, and Shayne Miel collaborated on the publication to Github.
+Todd Krause, Amanda Krauss, and Shayne Miel collaborated on the publication to GitHub.
 
 The original work was carried out under grants from the Salus Mundi Foundation, for which we owe thanks to Dr. A. Richard Diebold, Jr.
 
