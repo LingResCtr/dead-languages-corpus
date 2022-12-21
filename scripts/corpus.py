@@ -2,6 +2,7 @@ from abc import ABC, abstractstaticmethod
 import csv
 from dataclasses import dataclass, fields
 from pathlib import Path
+import re
 from typing import Optional, Type, get_args
 
 

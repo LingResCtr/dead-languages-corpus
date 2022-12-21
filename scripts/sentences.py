@@ -1,6 +1,6 @@
 from collections import defaultdict
 from dataclasses import dataclass
-from typing import Optional
+from typing import Any, Optional
 
 from corpus import Corpus, Element, Gloss, HeadWord, Language
 
@@ -64,6 +64,7 @@ def parse_sentences(corpus: Corpus) -> list[Sentence]:
             tokens=tokens
         ))
 
+    print(f"Successfully parsed {len(sentences)} sentences")
     return sentences
 
 
@@ -81,7 +82,7 @@ def get_glossed_text_to_translation_map(corpus: Corpus) -> dict[int, str]:
     """Creates a map of glossed text ids to English translations"""
     id_to_en = {}
     for id, row in corpus.glossed_text.items():
-        id_to_en[id] = "FOO"  # TODO: actually look this up
+        id_to_en[id] = "unk"  # TODO: actually look this up
     return id_to_en
 
 

@@ -1,4 +1,6 @@
+from dataclasses import fields
 import re
+from typing import Any
 
 from corpus import Corpus, GlossedText
 
@@ -10,8 +12,8 @@ def clean_corpus(corpus: Corpus) -> Corpus:
     print("Removing stray HTML from glossed_text")
     corpus.glossed_text = clean_html(corpus.glossed_text)
 
-    print("Condensing whitespace in glossed_text")
-    corpus.glossed_text = clean_whitespace(corpus.glossed_text)
+    print("Condensing whitespace in corpus")
+    corpus = clean_all_whitespace(corpus)
 
     return corpus
 
@@ -47,23 +49,29 @@ def clean_html(glossed_text: dict[int, GlossedText]) -> dict[int, GlossedText]:
     return ret
 
 
-def clean_whitespace(glossed_text: dict[int, GlossedText]) -> dict[int, GlossedText]:
+def clean_all_whitespace(corpus: Corpus) -> Corpus:
     """
     Replace new lines with \\n and otherwise convert all consecutive whitespace to a
     single space. Run this after clean_html() for best results with <br> tags, etc
     """
-    newline = re.compile(r"\s*\n\s*")
-    nbsp = re.compile("&nbsp;")
-    whitespace = re.compile(r"\s+")
+    out_corpus = {}
+    for field in fields(Corpus):
+        part = getattr(corpus, field.name)
 
-    ret = {}
-    for id, row in glossed_text.items():
-        text = row.glossed_text.strip()
-        text = newline.sub("\\n", text)
-        text = nbsp.sub(" ", text)
-        text = whitespace.sub(" ", text)
+        for id, row in part.items():
+            for attr in fields(row.__class__):
+                value = getattr(row, attr.name)
+                if isinstance(value, str):
+                    setattr(part[id], attr.name, clean_whitespace(value))
 
-        row.glossed_text = text
-        ret[id] = row
+        out_corpus[field.name] = part
+    return Corpus(**out_corpus)
 
-    return ret
+
+def clean_whitespace(text: str):
+    text = text.strip()
+    text = re.sub(r"\s*\n\s*", "\\n", text)
+    text = re.sub("&nbsp;", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    text = text.strip()
+    return text
