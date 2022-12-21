@@ -106,7 +106,7 @@ def write_json_lines(sentences: list[Sentence], path: Path) -> None:
         json_lines.append(line)
 
     with open(path, "w") as fout:
-        fout.writelines(json_lines)
+        fout.write("\n".join(json_lines))
 
 
 def create_arg_parser() -> argparse.ArgumentParser:
