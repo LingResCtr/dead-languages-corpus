@@ -1,8 +1,9 @@
 from collections import defaultdict
 from dataclasses import dataclass
-from typing import Any, Optional
+from typing import Optional
 
-from corpus import Corpus, Element, Gloss, HeadWord, Language
+from clean import clean_html, clean_whitespace
+from corpus import Corpus, Element, Gloss, GlossedText
 
 
 @dataclass
@@ -10,8 +11,10 @@ class POS:
     part_of_speech: str
     analysis: Optional[str]
 
+
 @dataclass
 class Token:
+    id: int             # maps to gloss id
     text: str
     parts_of_speech: list[POS]
     en_text: str
@@ -19,23 +22,26 @@ class Token:
 
 
 @dataclass
-class Sentence:
-    id: int
-    language: str
+class Chunk:
+    id: int             # maps to glossed_text id
     text: str
     en_text: str
     tokens: list[Token]
 
 
-def parse_sentences(corpus: Corpus) -> list[Sentence]:
-    """Turns the corpus into a list of sentences read to be dumped to JSONlines files"""
-    sentences: list[Sentence] = []
+@dataclass
+class Section:
+    id: int             # maps to lesson id
+    lesson_url: str
+    language: str
+    chunks: list[Chunk]
+    raw_html: str
+    en_html: str
 
-    print("Mapping glossed texts to languages")
-    glossed_text_to_language = get_glossed_text_to_language_map(corpus)
 
-    print("Mapping glossed texts to translations")
-    glossed_text_to_translation = get_glossed_text_to_translation_map(corpus)
+def parse_sections(corpus: Corpus) -> list[Section]:
+    """Turns the corpus into a list of sections read to be dumped to JSONlines files"""
+    sections: list[Section] = []
 
     print("Mapping glosses to elements")
     gloss_to_elements = get_gloss_to_elements_map(corpus)
@@ -50,40 +56,56 @@ def parse_sentences(corpus: Corpus) -> list[Sentence]:
         glossed_text_to_glosses=glossed_text_to_glosses,
     )
 
-    for id, row in corpus.glossed_text.items():
-        language = glossed_text_to_language[id]
-        text = row.glossed_text
-        en_text = glossed_text_to_translation[id]
-        tokens = glossed_text_to_tokens[id]
+    n_chunks = 0
+    n_sections = 0
 
-        sentences.append(Sentence(
-            id=id,
+    for lesson_id, lesson in corpus.lesson.items():
+        # skip lessons that don't have language to contribute to this data set
+        if lesson.lesson_translation is None:
+            continue
+
+        glossed_texts = sorted(
+            [gt for gt in corpus.glossed_text.values() if gt.lesson_id == lesson_id],
+            key=lambda gt: gt.order
+        )
+        url_slug = corpus.series[lesson.series_id].slug
+        lesson_url = f"https://lrc.la.utexas.edu/eieol/{url_slug}/{lesson.order}"
+        language = corpus.language[lesson.language_id].lang_attribute
+        raw_html = "\n".join([gt.glossed_text for gt in glossed_texts])
+        en_html = lesson.lesson_translation
+        chunks = get_chunks(glossed_texts, glossed_text_to_tokens)
+        section = Section(
+            id=lesson_id,
+            lesson_url=lesson_url,
             language=language,
-            text=text,
-            en_text=en_text,
-            tokens=tokens
-        ))
+            chunks=chunks,
+            raw_html=raw_html,
+            en_html=en_html
+        )
+        if len(chunks) > 0:
+            n_chunks += len(chunks)
+            n_sections += 1
+            sections.append(section)
 
-    print(f"Successfully parsed {len(sentences)} sentences")
-    return sentences
-
-
-def get_glossed_text_to_language_map(corpus: Corpus) -> dict[int, str]:
-    """Creates a map of glossed text ids to language abbreviations"""
-    id_to_lang = {}
-    for id, row in corpus.glossed_text.items():
-        lesson = corpus.lesson[row.lesson_id]
-        langauge = corpus.language[lesson.language_id]
-        id_to_lang[id] = langauge.lang_attribute
-    return id_to_lang
+    print(f"Successfully parsed {n_sections} sections with {n_chunks} chunks")
+    return sections
 
 
-def get_glossed_text_to_translation_map(corpus: Corpus) -> dict[int, str]:
-    """Creates a map of glossed text ids to English translations"""
-    id_to_en = {}
-    for id, row in corpus.glossed_text.items():
-        id_to_en[id] = "unk"  # TODO: actually look this up
-    return id_to_en
+def get_chunks(
+    glossed_texts: list[GlossedText],
+    glossed_text_to_tokens: dict[int, list[Token]]
+) -> list[Chunk]:
+    """Get the chunks for a section"""
+    chunks = []
+    for glossed_text in glossed_texts:
+        chunk = Chunk(
+            id=glossed_text.id,
+            text=clean_whitespace(clean_html(glossed_text.glossed_text)),
+            en_text="TODO",
+            tokens=glossed_text_to_tokens[glossed_text.id]
+        )
+        chunks.append(chunk)
+    return chunks
 
 
 def get_gloss_to_elements_map(corpus: Corpus) -> dict[int, list[Element]]:
@@ -129,8 +151,8 @@ def get_glossed_text_to_tokens_map(
             for element in gloss_to_elements[gloss.id]:
                 parts_of_speech.append(
                     POS(
-                        part_of_speech=element.part_of_speech,
-                        analysis=element.analysis
+                        part_of_speech=clean_whitespace(element.part_of_speech),
+                        analysis=clean_whitespace(element.analysis)
                     )
                 )
             keywords = [
@@ -138,9 +160,10 @@ def get_glossed_text_to_tokens_map(
                 for element in gloss_to_elements[gloss.id]
             ]
             token = Token(
-                text=gloss.surface_form,
+                id=gloss.id,
+                text=clean_whitespace(gloss.surface_form),
                 parts_of_speech=parts_of_speech,
-                en_text=gloss.contextual_gloss,
+                en_text=clean_whitespace(gloss.contextual_gloss),
                 en_keywords=keywords
             )
             tokens.append(token)
