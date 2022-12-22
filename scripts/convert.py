@@ -6,7 +6,8 @@ from typing import Any
 from zipfile import PyZipFile
 
 from clean import clean_corpus
-from corpus import Language, load_corpus
+from corpus import Corpus, Language, load_corpus
+from lessons import Translation, extract_translations
 from sentences import Sentence, parse_sentences
 
 
@@ -29,6 +30,15 @@ def main(zip_path: Path, temp_folder: Path, final_folder: Path) -> None:
     # load the unprocessed corpus
     unprocessed_corpus = load_corpus(extracted_files)
 
+    # get translations before cleaning to preserve line numbers when available
+    # extract english/original texts from lessons
+    translations = extract_translations(unprocessed_corpus)
+
+    save_translations(
+        final_folder=final_folder,
+        translations=translations
+    )
+
     # clean the corpus
     cleaned_corpus = clean_corpus(unprocessed_corpus)
 
@@ -41,6 +51,7 @@ def main(zip_path: Path, temp_folder: Path, final_folder: Path) -> None:
         sentences=sentences,
         languages=cleaned_corpus.language
     )
+
 
 
 def extract(zip_path: Path, temp_folder: Path) -> list[Path]:
@@ -64,7 +75,7 @@ def save_to_final(
 
     # save all
     all_path = final_folder / f"dlc-{date}-all.jsonl"
-    write_json_lines(sentences=sentences, path=all_path)
+    write_json_lines(instances=sentences, path=all_path)
 
     lang_data = []
 
@@ -75,7 +86,8 @@ def save_to_final(
             if sentence.language == language.lang_attribute
         ]
         if len(lang_sentences) > 0:
-            write_json_lines(sentences=lang_sentences, path=lang_path)
+            print(f"Writing {len(lang_sentences)} sentences to {lang_path}")
+            write_json_lines(instances=lang_sentences, path=lang_path)
         else:
             print(
                 f"Found no sentences for {language.language} ({language.lang_attribute})"
@@ -97,12 +109,26 @@ def save_to_final(
         json.dump(data, fout)
 
 
-def write_json_lines(sentences: list[Sentence], path: Path) -> None:
-    """Write sentences as JSON lines"""
-    print(f"Writing {len(sentences)} sentences to {path}")
+def save_translations(final_folder: Path, translations: list[Translation]) -> None:
+    """Save the translations as a JSON lines document"""
+    # parse the date from the final folder
+    date = str(final_folder).split("-")[-1]
+
+    translations_path = final_folder / f"translations-dlc-{date}.jsonl"
+
+    print(f"Writing {len(translations)} translations to {translations_path}")
+    write_json_lines(instances=translations, path=translations_path)
+
+
+def write_json_lines(instances: list[Any], path: Path) -> None:
+    """
+    Write instances as JSON lines
+
+    The elements of the `instances` list must all be dataclasses
+    """
     json_lines = []
-    for sentence in sentences:
-        line = json.dumps(asdict(sentence), ensure_ascii=False)
+    for instance in instances:
+        line = json.dumps(asdict(instance), ensure_ascii=False)
         json_lines.append(line)
 
     with open(path, "w") as fout:
