@@ -1,0 +1,2909 @@
+{
+  "id": 905,
+  "lesson_url": "https://lrc.la.utexas.edu/eieol/ofrol/100",
+  "language": "fro",
+  "chunks": [
+    {
+      "id": 10262,
+      "text": "Cis Barintes commencha a plourer et se coucha a terre et demoura longhement en orisons.",
+      "en_text": "TODO",
+      "tokens": [
+        {
+          "id": 100066,
+          "text": "cis",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "demonstrative",
+              "analysis": "nominative singular masculine"
+            }
+          ],
+          "en_text": "this",
+          "en_keywords": [
+            [
+              "THIS"
+            ]
+          ]
+        },
+        {
+          "id": 100067,
+          "text": "Barintes",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "proper name",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "Barind",
+          "en_keywords": [
+            [
+              "BARIND"
+            ]
+          ]
+        },
+        {
+          "id": 100068,
+          "text": "commencha",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "started",
+          "en_keywords": [
+            [
+              "BEGIN",
+              "START"
+            ]
+          ]
+        },
+        {
+          "id": 116473,
+          "text": "a",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "to",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 100069,
+          "text": "plourer",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "infinitive"
+            }
+          ],
+          "en_text": "cry",
+          "en_keywords": [
+            [
+              "CRY",
+              "SHED",
+              "TEARS"
+            ]
+          ]
+        },
+        {
+          "id": 116474,
+          "text": "et",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 100070,
+          "text": "se coucha",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "lay down",
+          "en_keywords": [
+            [
+              "DOWN",
+              "LIE"
+            ]
+          ]
+        },
+        {
+          "id": 100071,
+          "text": "a",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "on",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 100072,
+          "text": "terre",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "the soil",
+          "en_keywords": [
+            [
+              "COUNTRY",
+              "EARTH",
+              "LAND"
+            ]
+          ]
+        },
+        {
+          "id": 116475,
+          "text": "et",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 100073,
+          "text": "demoura",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "remained",
+          "en_keywords": [
+            [
+              "REMAIN",
+              "STAY"
+            ]
+          ]
+        },
+        {
+          "id": 100074,
+          "text": "longhement",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adverb",
+              "analysis": null
+            }
+          ],
+          "en_text": "for a long time",
+          "en_keywords": [
+            [
+              "LONG",
+              "TIME"
+            ]
+          ]
+        },
+        {
+          "id": 116476,
+          "text": "en",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "in",
+          "en_keywords": [
+            [
+              "INTO",
+              "TOP"
+            ]
+          ]
+        },
+        {
+          "id": 100075,
+          "text": "orisons",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "prayers",
+          "en_keywords": [
+            [
+              "PRAYER",
+              "SPEECH"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "text": "Mais sains Brandains le leva de terre et le baisa si dist: Bials pere pour coi auons nous tristeche en te venue Enne venistes vous a no consolation.",
+      "en_text": "TODO",
+      "tokens": [
+        {
+          "id": 100076,
+          "text": "mais",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "but",
+          "en_keywords": [
+            [
+              "BUT"
+            ]
+          ]
+        },
+        {
+          "id": 100077,
+          "text": "sains Brandains",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "nominative singular masculine"
+            },
+            {
+              "part_of_speech": "proper name",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "St. Brendan",
+          "en_keywords": [
+            [
+              "HOLY"
+            ],
+            [
+              "BRENDAN"
+            ]
+          ]
+        },
+        {
+          "id": 116477,
+          "text": "le",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular direct object masculine"
+            }
+          ],
+          "en_text": "him",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 100078,
+          "text": "leva",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "lifted... up",
+          "en_keywords": [
+            [
+              "LIFT",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 116478,
+          "text": "de",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "from",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ]
+          ]
+        },
+        {
+          "id": 100079,
+          "text": "terre",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "the ground",
+          "en_keywords": [
+            [
+              "COUNTRY",
+              "EARTH",
+              "LAND"
+            ]
+          ]
+        },
+        {
+          "id": 116479,
+          "text": "et",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 116480,
+          "text": "le",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular direct object masculine"
+            }
+          ],
+          "en_text": "him",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 100080,
+          "text": "baisa",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "kissed",
+          "en_keywords": [
+            [
+              "KISS"
+            ]
+          ]
+        },
+        {
+          "id": 116481,
+          "text": "si",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "THUS"
+            ]
+          ]
+        },
+        {
+          "id": 116482,
+          "text": "dist",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "said",
+          "en_keywords": [
+            [
+              "SAY",
+              "TELL"
+            ]
+          ]
+        },
+        {
+          "id": 100081,
+          "text": "bials",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "nominative singular masculine"
+            }
+          ],
+          "en_text": "dear",
+          "en_keywords": [
+            [
+              "BELOVED",
+              "DEAR",
+              "HANDSOME"
+            ]
+          ]
+        },
+        {
+          "id": 116483,
+          "text": "pere",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "father",
+          "en_keywords": [
+            [
+              "FATHER"
+            ]
+          ]
+        },
+        {
+          "id": 100082,
+          "text": "pour coi",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            },
+            {
+              "part_of_speech": "interrogative",
+              "analysis": "oblique"
+            }
+          ],
+          "en_text": "why",
+          "en_keywords": [
+            [
+              "FOR"
+            ],
+            [
+              "WHAT"
+            ]
+          ]
+        },
+        {
+          "id": 100083,
+          "text": "auons",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "first person plural present"
+            }
+          ],
+          "en_text": "do... have",
+          "en_keywords": [
+            [
+              "HAVE"
+            ]
+          ]
+        },
+        {
+          "id": 100084,
+          "text": "nous",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "first person plural nominative"
+            }
+          ],
+          "en_text": "we",
+          "en_keywords": [
+            [
+              "WE"
+            ]
+          ]
+        },
+        {
+          "id": 100085,
+          "text": "tristeche",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "sadness",
+          "en_keywords": [
+            [
+              "HORROR",
+              "SADNESS"
+            ]
+          ]
+        },
+        {
+          "id": 116484,
+          "text": "en",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "at",
+          "en_keywords": [
+            [
+              "INTO",
+              "TOP"
+            ]
+          ]
+        },
+        {
+          "id": 100086,
+          "text": "te",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "second person singular oblique singular feminine"
+            }
+          ],
+          "en_text": "your",
+          "en_keywords": [
+            [
+              "YOUR"
+            ]
+          ]
+        },
+        {
+          "id": 100087,
+          "text": "venue",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "arrival",
+          "en_keywords": [
+            [
+              "ARRIVAL"
+            ]
+          ]
+        },
+        {
+          "id": 100088,
+          "text": "enne",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "interrogative adverb",
+              "analysis": null
+            }
+          ],
+          "en_text": "not",
+          "en_keywords": [
+            [
+              "NOT"
+            ]
+          ]
+        },
+        {
+          "id": 100089,
+          "text": "venistes",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "second person plural subjunctive imperfective"
+            }
+          ],
+          "en_text": "did... come",
+          "en_keywords": [
+            [
+              "COME",
+              "GO"
+            ]
+          ]
+        },
+        {
+          "id": 100090,
+          "text": "vous",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "second person plural nominative"
+            }
+          ],
+          "en_text": "you",
+          "en_keywords": [
+            [
+              "YOU"
+            ]
+          ]
+        },
+        {
+          "id": 116485,
+          "text": "a",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "to",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 100091,
+          "text": "no",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "first person plural oblique singular feminine"
+            }
+          ],
+          "en_text": "our",
+          "en_keywords": [
+            [
+              "OUR"
+            ]
+          ]
+        },
+        {
+          "id": 100092,
+          "text": "consolation",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "consolation",
+          "en_keywords": [
+            [
+              "CONSOLATION"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10264,
+      "text": "Tu nous dois miex esleechier que courechier. Demoustre nous le parolle diu e refai nos ames des divers miracles que tu as veus en le mer.",
+      "en_text": "TODO",
+      "tokens": [
+        {
+          "id": 116486,
+          "text": "tu",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "second person singular nominative"
+            }
+          ],
+          "en_text": "you",
+          "en_keywords": [
+            [
+              "YOU"
+            ]
+          ]
+        },
+        {
+          "id": 100093,
+          "text": "nous",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "first person plural direct object"
+            }
+          ],
+          "en_text": "us",
+          "en_keywords": [
+            [
+              "WE"
+            ]
+          ]
+        },
+        {
+          "id": 100094,
+          "text": "dois",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "second person singular present"
+            }
+          ],
+          "en_text": "have to",
+          "en_keywords": [
+            [
+              "HAVE"
+            ]
+          ]
+        },
+        {
+          "id": 100095,
+          "text": "miex",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "comparative adverb",
+              "analysis": null
+            }
+          ],
+          "en_text": "rather",
+          "en_keywords": [
+            [
+              "BETTER",
+              "RATHER"
+            ]
+          ]
+        },
+        {
+          "id": 100096,
+          "text": "esleechier",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "infinitive"
+            }
+          ],
+          "en_text": "make happy",
+          "en_keywords": [
+            [
+              "REJOICE"
+            ]
+          ]
+        },
+        {
+          "id": 116487,
+          "text": "que",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "than",
+          "en_keywords": [
+            [
+              "THAN"
+            ]
+          ]
+        },
+        {
+          "id": 100097,
+          "text": "courechier",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "infinitive"
+            }
+          ],
+          "en_text": "make sad",
+          "en_keywords": [
+            [
+              "AFFLICT",
+              "ANGER"
+            ]
+          ]
+        },
+        {
+          "id": 100098,
+          "text": "demoustre",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "second person singular imperative"
+            }
+          ],
+          "en_text": "show",
+          "en_keywords": [
+            [
+              "EXPLAINE",
+              "INDICATE",
+              "SHOW"
+            ]
+          ]
+        },
+        {
+          "id": 100099,
+          "text": "nous",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "first person plural indirect object"
+            }
+          ],
+          "en_text": "us",
+          "en_keywords": [
+            [
+              "WE"
+            ]
+          ]
+        },
+        {
+          "id": 100100,
+          "text": "le",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "definite article",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "the",
+          "en_keywords": [
+            [
+              "THE"
+            ]
+          ]
+        },
+        {
+          "id": 100101,
+          "text": "parolle",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "word",
+          "en_keywords": [
+            [
+              "SPEECH",
+              "WORD"
+            ]
+          ]
+        },
+        {
+          "id": 100102,
+          "text": "diu",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "proper name",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "of God",
+          "en_keywords": [
+            [
+              "GOD"
+            ]
+          ]
+        },
+        {
+          "id": 116488,
+          "text": "e",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 100103,
+          "text": "refai",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "second person singular imperative"
+            }
+          ],
+          "en_text": "repair",
+          "en_keywords": [
+            [
+              "REPAIR"
+            ]
+          ]
+        },
+        {
+          "id": 100104,
+          "text": "nos",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "first person plural oblique plural feminine"
+            }
+          ],
+          "en_text": "our",
+          "en_keywords": [
+            [
+              "OUR"
+            ]
+          ]
+        },
+        {
+          "id": 100105,
+          "text": "ames",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique plural"
+            }
+          ],
+          "en_text": "souls",
+          "en_keywords": [
+            [
+              "SOMEBODY",
+              "SOUL"
+            ]
+          ]
+        },
+        {
+          "id": 100106,
+          "text": "des",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            },
+            {
+              "part_of_speech": "definite article",
+              "analysis": "oblique plural masculine"
+            }
+          ],
+          "en_text": "with the",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ],
+            [
+              "THE"
+            ]
+          ]
+        },
+        {
+          "id": 100107,
+          "text": "divers",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "oblique plural masculine"
+            }
+          ],
+          "en_text": "various",
+          "en_keywords": [
+            [
+              "VARIOUS"
+            ]
+          ]
+        },
+        {
+          "id": 100108,
+          "text": "miracles",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique plural"
+            }
+          ],
+          "en_text": "miracles",
+          "en_keywords": [
+            [
+              "MIRACLE"
+            ]
+          ]
+        },
+        {
+          "id": 116489,
+          "text": "que",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "relative pronoun",
+              "analysis": "object"
+            }
+          ],
+          "en_text": "that",
+          "en_keywords": [
+            [
+              "THAT"
+            ]
+          ]
+        },
+        {
+          "id": 116490,
+          "text": "tu",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "second person singular nominative"
+            }
+          ],
+          "en_text": "you",
+          "en_keywords": [
+            [
+              "YOU"
+            ]
+          ]
+        },
+        {
+          "id": 116491,
+          "text": "as",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "second person singular present"
+            }
+          ],
+          "en_text": "have",
+          "en_keywords": [
+            [
+              "HAVE"
+            ]
+          ]
+        },
+        {
+          "id": 100109,
+          "text": "veus",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "perfective participle oblique plural masculine"
+            }
+          ],
+          "en_text": "seen",
+          "en_keywords": [
+            [
+              "SEE"
+            ]
+          ]
+        },
+        {
+          "id": 100110,
+          "text": "en",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "on",
+          "en_keywords": [
+            [
+              "INTO",
+              "TOP"
+            ]
+          ]
+        },
+        {
+          "id": 100111,
+          "text": "le",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "definite article",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "...",
+          "en_keywords": [
+            [
+              "THE"
+            ]
+          ]
+        },
+        {
+          "id": 116492,
+          "text": "mer",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "sea",
+          "en_keywords": [
+            [
+              "SEA"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10265,
+      "text": "Dont commencha a dire sains Barintes a saint Brandain d'une isle et dist: Mes fils Mernoc pourueeres des poures ihu crist se departi de devant mi et iestres curieus.",
+      "en_text": "TODO",
+      "tokens": [
+        {
+          "id": 100112,
+          "text": "dont",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adverb",
+              "analysis": null
+            }
+          ],
+          "en_text": "then",
+          "en_keywords": [
+            [
+              "THEN",
+              "THEREFORE"
+            ]
+          ]
+        },
+        {
+          "id": 116493,
+          "text": "commencha",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "started",
+          "en_keywords": [
+            [
+              "BEGIN",
+              "START"
+            ]
+          ]
+        },
+        {
+          "id": 116494,
+          "text": "a",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "to",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 100113,
+          "text": "dire",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "infinitive"
+            }
+          ],
+          "en_text": "talk",
+          "en_keywords": [
+            [
+              "SAY",
+              "TELL"
+            ]
+          ]
+        },
+        {
+          "id": 100114,
+          "text": "sains Barintes",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "nominative singular masculine"
+            },
+            {
+              "part_of_speech": "proper name",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "St. Barind",
+          "en_keywords": [
+            [
+              "HOLY"
+            ],
+            [
+              "BARIND"
+            ]
+          ]
+        },
+        {
+          "id": 116495,
+          "text": "a",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "to",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 100115,
+          "text": "saint Brandain",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "oblique singular masculine"
+            },
+            {
+              "part_of_speech": "proper name",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "St. Brendan",
+          "en_keywords": [
+            [
+              "HOLY"
+            ],
+            [
+              "BRENDAN"
+            ]
+          ]
+        },
+        {
+          "id": 100116,
+          "text": "d'une",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            },
+            {
+              "part_of_speech": "indefinite article",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "about an",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 100117,
+          "text": "isle",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "island",
+          "en_keywords": [
+            [
+              "ISLAND"
+            ]
+          ]
+        },
+        {
+          "id": 116496,
+          "text": "et",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 100118,
+          "text": "dist",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "he said",
+          "en_keywords": [
+            [
+              "SAY",
+              "TELL"
+            ]
+          ]
+        },
+        {
+          "id": 116497,
+          "text": "mes",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "first person singular nominative singular masculine"
+            }
+          ],
+          "en_text": "my",
+          "en_keywords": [
+            [
+              "MY"
+            ]
+          ]
+        },
+        {
+          "id": 116498,
+          "text": "fils",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "son",
+          "en_keywords": [
+            [
+              "SON"
+            ]
+          ]
+        },
+        {
+          "id": 100119,
+          "text": "Mernoc",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "proper name",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "Mernoc",
+          "en_keywords": [
+            [
+              "MERNOC"
+            ]
+          ]
+        },
+        {
+          "id": 100120,
+          "text": "pourueeres",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "purveyor",
+          "en_keywords": [
+            [
+              "PURVEYOR"
+            ]
+          ]
+        },
+        {
+          "id": 116499,
+          "text": "des",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            },
+            {
+              "part_of_speech": "definite article",
+              "analysis": "oblique plural masculine"
+            }
+          ],
+          "en_text": "of the",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ],
+            [
+              "THE"
+            ]
+          ]
+        },
+        {
+          "id": 100121,
+          "text": "poures",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique plural"
+            }
+          ],
+          "en_text": "poor",
+          "en_keywords": [
+            [
+              "POOR"
+            ]
+          ]
+        },
+        {
+          "id": 100122,
+          "text": "ihu",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "proper name",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "of Jesus",
+          "en_keywords": [
+            [
+              "JESUS"
+            ]
+          ]
+        },
+        {
+          "id": 100123,
+          "text": "crist",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "proper name",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "Christ",
+          "en_keywords": [
+            [
+              "CHRIST"
+            ]
+          ]
+        },
+        {
+          "id": 100124,
+          "text": "se departi",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "left",
+          "en_keywords": [
+            [
+              "AWAY",
+              "GO",
+              "LEAVE"
+            ]
+          ]
+        },
+        {
+          "id": 100125,
+          "text": "de devant mi",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            },
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            },
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "first person singular direct object"
+            }
+          ],
+          "en_text": "me",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ],
+            [
+              "BEFORE",
+              "FRONT",
+              "PRESENCE"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 116500,
+          "text": "et",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 100126,
+          "text": "iestres",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "a way of life",
+          "en_keywords": [
+            [
+              "CONDITION",
+              "LIFE",
+              "WAY"
+            ]
+          ]
+        },
+        {
+          "id": 100127,
+          "text": "curieus",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "nominative singular masculine"
+            }
+          ],
+          "en_text": "safe",
+          "en_keywords": [
+            [
+              "CAREFUL"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10266,
+      "text": "Il trouva une isle dales le mont de piere qui est apielee par non isle delisieuse. Apries une grant pieche de tans me fu nonchiet qu'il auoit pluiseurs moines aueoc lui.",
+      "en_text": "TODO",
+      "tokens": [
+        {
+          "id": 116501,
+          "text": "il",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular nominative masculine"
+            }
+          ],
+          "en_text": "he",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 100128,
+          "text": "trouva",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "found",
+          "en_keywords": [
+            [
+              "FIND"
+            ]
+          ]
+        },
+        {
+          "id": 100129,
+          "text": "une",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "indefinite article",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "an",
+          "en_keywords": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 116502,
+          "text": "isle",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "island",
+          "en_keywords": [
+            [
+              "ISLAND"
+            ]
+          ]
+        },
+        {
+          "id": 100130,
+          "text": "dales",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "next to",
+          "en_keywords": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 116503,
+          "text": "le",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "definite article",
+              "analysis": "oblique singular masculine"
+            }
+          ],
+          "en_text": "the",
+          "en_keywords": [
+            [
+              "THE"
+            ]
+          ]
+        },
+        {
+          "id": 100131,
+          "text": "mont",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "mountain",
+          "en_keywords": [
+            [
+              "MOUNTAIN"
+            ]
+          ]
+        },
+        {
+          "id": 116504,
+          "text": "de",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "of",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ]
+          ]
+        },
+        {
+          "id": 100132,
+          "text": "piere",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "stone",
+          "en_keywords": [
+            [
+              "PRISON",
+              "STONE"
+            ]
+          ]
+        },
+        {
+          "id": 116505,
+          "text": "qui",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "relative pronoun",
+              "analysis": "subject"
+            }
+          ],
+          "en_text": "which",
+          "en_keywords": [
+            [
+              "THAT"
+            ]
+          ]
+        },
+        {
+          "id": 116506,
+          "text": "est",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular present"
+            }
+          ],
+          "en_text": "is",
+          "en_keywords": [
+            [
+              "BE"
+            ]
+          ]
+        },
+        {
+          "id": 100133,
+          "text": "apielee",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "perfective participle nominative singular feminine"
+            }
+          ],
+          "en_text": "called",
+          "en_keywords": [
+            [
+              "ACCUSE",
+              "CALL",
+              "SUMMON"
+            ]
+          ]
+        },
+        {
+          "id": 116507,
+          "text": "par",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "by",
+          "en_keywords": [
+            [
+              "BY",
+              "REASON",
+              "THROUGH"
+            ]
+          ]
+        },
+        {
+          "id": 100134,
+          "text": "non",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "the name",
+          "en_keywords": [
+            [
+              "NAME",
+              "TITLE"
+            ]
+          ]
+        },
+        {
+          "id": 116508,
+          "text": "isle",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "island",
+          "en_keywords": [
+            [
+              "ISLAND"
+            ]
+          ]
+        },
+        {
+          "id": 100135,
+          "text": "delisieuse",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "delicious",
+          "en_keywords": [
+            [
+              "DELICIOUS"
+            ]
+          ]
+        },
+        {
+          "id": 100136,
+          "text": "apries",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "after",
+          "en_keywords": [
+            [
+              "AFTER",
+              "AFTERWARDS"
+            ]
+          ]
+        },
+        {
+          "id": 116509,
+          "text": "une",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "indefinite article",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "a",
+          "en_keywords": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 100137,
+          "text": "grant",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "long",
+          "en_keywords": [
+            [
+              "GREAT",
+              "LARGE",
+              "TALL"
+            ]
+          ]
+        },
+        {
+          "id": 100138,
+          "text": "pieche",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "period",
+          "en_keywords": [
+            [
+              "PIECE",
+              "SEGMENT"
+            ]
+          ]
+        },
+        {
+          "id": 116510,
+          "text": "de",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "of",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ]
+          ]
+        },
+        {
+          "id": 100139,
+          "text": "tans",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "time",
+          "en_keywords": [
+            [
+              "TIME",
+              "WEATHER"
+            ]
+          ]
+        },
+        {
+          "id": 100140,
+          "text": "me",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "first person singular indirect object"
+            }
+          ],
+          "en_text": "I",
+          "en_keywords": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 116511,
+          "text": "fu",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "was",
+          "en_keywords": [
+            [
+              "BE"
+            ]
+          ]
+        },
+        {
+          "id": 100141,
+          "text": "nonchiet",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "perfective participle nominative singular masculine"
+            }
+          ],
+          "en_text": "told",
+          "en_keywords": [
+            [
+              "ANNOUNCE",
+              "TELL"
+            ]
+          ]
+        },
+        {
+          "id": 116512,
+          "text": "qu'il",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            },
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular nominative masculine"
+            }
+          ],
+          "en_text": "that he",
+          "en_keywords": [
+            [
+              "THAT"
+            ],
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 100142,
+          "text": "auoit",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular imperfective"
+            }
+          ],
+          "en_text": "had",
+          "en_keywords": [
+            [
+              "HAVE"
+            ]
+          ]
+        },
+        {
+          "id": 100143,
+          "text": "pluiseurs",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "indefinite pronoun",
+              "analysis": "nominative plural masculine"
+            }
+          ],
+          "en_text": "several",
+          "en_keywords": [
+            [
+              "SEVERAL"
+            ]
+          ]
+        },
+        {
+          "id": 100144,
+          "text": "moines",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique plural"
+            }
+          ],
+          "en_text": "monks",
+          "en_keywords": [
+            [
+              "MONK"
+            ]
+          ]
+        },
+        {
+          "id": 100145,
+          "text": "aueoc",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "with",
+          "en_keywords": [
+            [
+              "WITH"
+            ]
+          ]
+        },
+        {
+          "id": 116513,
+          "text": "lui",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular direct object masculine"
+            }
+          ],
+          "en_text": "him",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10267,
+      "text": "Et que dex auoit demonstre molt de miracles par lui En tel maniere alai a lui pour visiter men filluel et com ie fuisse a trois iours pries de me voie Il se hasta pour venir encontre mi atout ses freres.",
+      "en_text": "TODO",
+      "tokens": [
+        {
+          "id": 116514,
+          "text": "et",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 116515,
+          "text": "que",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "that",
+          "en_keywords": [
+            [
+              "THAT"
+            ]
+          ]
+        },
+        {
+          "id": 100146,
+          "text": "dex",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "proper name",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "God",
+          "en_keywords": [
+            [
+              "GOD"
+            ]
+          ]
+        },
+        {
+          "id": 116516,
+          "text": "auoit",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular imperfective"
+            }
+          ],
+          "en_text": "had",
+          "en_keywords": [
+            [
+              "HAVE"
+            ]
+          ]
+        },
+        {
+          "id": 100147,
+          "text": "demonstre",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "perfective participle oblique singular masculine"
+            }
+          ],
+          "en_text": "shown",
+          "en_keywords": [
+            [
+              "EXPLAINE",
+              "INDICATE",
+              "SHOW"
+            ]
+          ]
+        },
+        {
+          "id": 116517,
+          "text": "molt",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adverb, adjective",
+              "analysis": null
+            }
+          ],
+          "en_text": "many",
+          "en_keywords": [
+            [
+              "MANY",
+              "MUCH",
+              "VERY"
+            ]
+          ]
+        },
+        {
+          "id": 100148,
+          "text": "de",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "particle",
+              "analysis": "NULL"
+            }
+          ],
+          "en_text": "...",
+          "en_keywords": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 116518,
+          "text": "miracles",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique plural"
+            }
+          ],
+          "en_text": "miracles",
+          "en_keywords": [
+            [
+              "MIRACLE"
+            ]
+          ]
+        },
+        {
+          "id": 116519,
+          "text": "par",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "through",
+          "en_keywords": [
+            [
+              "BY",
+              "REASON",
+              "THROUGH"
+            ]
+          ]
+        },
+        {
+          "id": 116520,
+          "text": "lui",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular direct object masculine"
+            }
+          ],
+          "en_text": "him",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 116521,
+          "text": "en",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "in",
+          "en_keywords": [
+            [
+              "INTO",
+              "TOP"
+            ]
+          ]
+        },
+        {
+          "id": 116522,
+          "text": "tel",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adjective",
+              "analysis": "oblique singular feminine"
+            }
+          ],
+          "en_text": "such",
+          "en_keywords": [
+            [
+              "SUCH"
+            ]
+          ]
+        },
+        {
+          "id": 100149,
+          "text": "maniere",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "way",
+          "en_keywords": [
+            [
+              "INTENTION",
+              "WAY"
+            ]
+          ]
+        },
+        {
+          "id": 100150,
+          "text": "alai",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "first person singular preterite"
+            }
+          ],
+          "en_text": "I went",
+          "en_keywords": [
+            [
+              "GO"
+            ]
+          ]
+        },
+        {
+          "id": 116523,
+          "text": "a",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "to",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 116524,
+          "text": "lui",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular direct object masculine"
+            }
+          ],
+          "en_text": "him",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 100151,
+          "text": "pour",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "in order to",
+          "en_keywords": [
+            [
+              "FOR"
+            ]
+          ]
+        },
+        {
+          "id": 100152,
+          "text": "visiter",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "infinitive"
+            }
+          ],
+          "en_text": "visit",
+          "en_keywords": [
+            [
+              "OBSERVE",
+              "VISIT"
+            ]
+          ]
+        },
+        {
+          "id": 100153,
+          "text": "men",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "first person singular oblique singular masculine"
+            }
+          ],
+          "en_text": "my",
+          "en_keywords": [
+            [
+              "MY"
+            ]
+          ]
+        },
+        {
+          "id": 100154,
+          "text": "filluel",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "godson",
+          "en_keywords": [
+            [
+              "GODSON",
+              "SON"
+            ]
+          ]
+        },
+        {
+          "id": 116525,
+          "text": "et",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "and",
+          "en_keywords": [
+            [
+              "AND"
+            ]
+          ]
+        },
+        {
+          "id": 100155,
+          "text": "com",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": null
+            }
+          ],
+          "en_text": "when",
+          "en_keywords": [
+            [
+              "WHEN"
+            ]
+          ]
+        },
+        {
+          "id": 100156,
+          "text": "ie",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "first person singular nominative"
+            }
+          ],
+          "en_text": "I",
+          "en_keywords": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 100157,
+          "text": "fuisse",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "first person singular subjunctive imperfective"
+            }
+          ],
+          "en_text": "was",
+          "en_keywords": [
+            [
+              "BE"
+            ]
+          ]
+        },
+        {
+          "id": 116526,
+          "text": "a",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "...",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "UP"
+            ]
+          ]
+        },
+        {
+          "id": 100158,
+          "text": "trois",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "numeral",
+              "analysis": null
+            }
+          ],
+          "en_text": "three",
+          "en_keywords": [
+            [
+              "THREE"
+            ]
+          ]
+        },
+        {
+          "id": 100159,
+          "text": "iours",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique plural"
+            }
+          ],
+          "en_text": "days",
+          "en_keywords": [
+            [
+              "DAY"
+            ]
+          ]
+        },
+        {
+          "id": 100160,
+          "text": "pries",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "adverb",
+              "analysis": "NULL"
+            }
+          ],
+          "en_text": "close to",
+          "en_keywords": [
+            [
+              "CLOSE"
+            ]
+          ]
+        },
+        {
+          "id": 116527,
+          "text": "de",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "...",
+          "en_keywords": [
+            [
+              "FROM",
+              "OF"
+            ]
+          ]
+        },
+        {
+          "id": 100161,
+          "text": "me",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "first person singular oblique singular feminine"
+            }
+          ],
+          "en_text": "...",
+          "en_keywords": [
+            [
+              "MY"
+            ]
+          ]
+        },
+        {
+          "id": 100162,
+          "text": "voie",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "underway",
+          "en_keywords": [
+            [
+              "ROAD"
+            ]
+          ]
+        },
+        {
+          "id": 116528,
+          "text": "il",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular nominative masculine"
+            }
+          ],
+          "en_text": "he",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 100163,
+          "text": "se hasta",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular preterite"
+            }
+          ],
+          "en_text": "hastened",
+          "en_keywords": [
+            [
+              "HASTEN"
+            ]
+          ]
+        },
+        {
+          "id": 100164,
+          "text": "pour",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "to",
+          "en_keywords": [
+            [
+              "FOR"
+            ]
+          ]
+        },
+        {
+          "id": 116529,
+          "text": "venir",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "infinitive"
+            }
+          ],
+          "en_text": "come",
+          "en_keywords": [
+            [
+              "COME",
+              "GO"
+            ]
+          ]
+        },
+        {
+          "id": 100165,
+          "text": "encontre",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "to meet",
+          "en_keywords": [
+            [
+              "AGAINST",
+              "TOWARDS"
+            ]
+          ]
+        },
+        {
+          "id": 100166,
+          "text": "mi",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "first person singular direct object"
+            }
+          ],
+          "en_text": "me",
+          "en_keywords": [
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "id": 100167,
+          "text": "atout",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "preposition",
+              "analysis": null
+            }
+          ],
+          "en_text": "with",
+          "en_keywords": [
+            [
+              "WITH"
+            ]
+          ]
+        },
+        {
+          "id": 116530,
+          "text": "ses",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "third person singular oblique plural masculine"
+            }
+          ],
+          "en_text": "his",
+          "en_keywords": [
+            [
+              "HIS"
+            ]
+          ]
+        },
+        {
+          "id": 100168,
+          "text": "freres",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique plural"
+            }
+          ],
+          "en_text": "brothers",
+          "en_keywords": [
+            [
+              "BROTHER"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10268,
+      "text": "Car nostre sires li avoit reuele men avenement.",
+      "en_text": "TODO",
+      "tokens": [
+        {
+          "id": 100169,
+          "text": "car",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "conjunction",
+              "analysis": "NULL"
+            }
+          ],
+          "en_text": "because",
+          "en_keywords": [
+            [
+              "BECAUSE"
+            ]
+          ]
+        },
+        {
+          "id": 100170,
+          "text": "nostre",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "first person plural nominative singular masculine"
+            }
+          ],
+          "en_text": "Our",
+          "en_keywords": [
+            [
+              "OUR"
+            ]
+          ]
+        },
+        {
+          "id": 100171,
+          "text": "sires",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "nominative singular"
+            }
+          ],
+          "en_text": "Lord",
+          "en_keywords": [
+            [
+              "LORD"
+            ]
+          ]
+        },
+        {
+          "id": 116531,
+          "text": "li",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "personal pronoun",
+              "analysis": "third person singular indirect object masculine"
+            }
+          ],
+          "en_text": "to him",
+          "en_keywords": [
+            [
+              "HE"
+            ]
+          ]
+        },
+        {
+          "id": 116532,
+          "text": "avoit",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "third person singular imperfective"
+            }
+          ],
+          "en_text": "had",
+          "en_keywords": [
+            [
+              "HAVE"
+            ]
+          ]
+        },
+        {
+          "id": 100172,
+          "text": "reuele",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "verb",
+              "analysis": "perfective participle oblique singular masculine"
+            }
+          ],
+          "en_text": "made known",
+          "en_keywords": [
+            [
+              "KNOWN",
+              "MAKE",
+              "REVEAL"
+            ]
+          ]
+        },
+        {
+          "id": 116533,
+          "text": "men",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "possessive",
+              "analysis": "first person singular oblique singular masculine"
+            }
+          ],
+          "en_text": "my",
+          "en_keywords": [
+            [
+              "MY"
+            ]
+          ]
+        },
+        {
+          "id": 100173,
+          "text": "avenement",
+          "parts_of_speech": [
+            {
+              "part_of_speech": "noun",
+              "analysis": "oblique singular"
+            }
+          ],
+          "en_text": "arrival",
+          "en_keywords": [
+            [
+              "ARRIVAL"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_html": "Cis Barintes commencha a plourer et se coucha a terre <br/> et demoura longhement en orisons.\nMais sains Brandains le leva de terre <br/> et le baisa si dist: <br/> Bials pere pour coi auons nous tristeche en te venue <br/> Enne venistes vous a no consolation.\nTu nous dois miex esleechier que courechier. <br/> Demoustre nous le parolle diu <br/> e refai nos ames des divers miracles que tu as veus en le mer.\nDont commencha a dire sains Barintes a saint Brandain d'une isle et dist: <br/> Mes fils Mernoc pourueeres des poures ihu crist <br/> se departi de devant mi et iestres curieus.\nIl trouva une isle dales le mont de piere <br/> qui est apielee par non isle delisieuse. <br/> Apries une grant pieche de tans me fu nonchiet <br/> qu'il auoit pluiseurs moines aueoc lui.\nEt que dex auoit demonstre molt de miracles par lui <br/> En tel maniere alai a lui pour visiter men filluel <br/> et com ie fuisse a trois iours pries de me voie <br/> Il se hasta pour venir encontre mi atout ses freres.\nCar nostre sires li avoit reuele men avenement.",
+  "en_html": "  <blockquote>This Barind started to cry and lay down on the soil <br> And remained for a long time in prayers. <br> But St. Brendan lifted him up from the ground <br> And kissed him and said : <br> Dear father why do we have sadness at your arrival ? <br> Did you not come to our consolation ? <br> You have to make us happy rather than make us sad <br> Show us the word of God <br> And repair our souls with the various miracles that you have seen on sea. <br> Then St. Barind started to talk to St. Brendan about an island and he said : <br> My son Mernoc, purveyor of the poor of Jesus Christ <br> Left me and a safe way of life. <br> He found an island next to the mountain of stone <br> which is called by the name delicious island. <br> After a long period of time I was told <br> That he had several monks with him. <br> And that God had shown many miracles through him <br> In such way I went to him to visit my godson <br> And when I was close to three days under way <br> He hastened in order to meet me with his brothers. <br> Because Our Lord had made my arrival known to him.</blockquote>  "
+}
