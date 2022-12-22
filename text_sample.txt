@@ -1,0 +1,274 @@
+{
+  "id": 10679,
+  "language": "non",
+  "text": "Íslendingabók gørða ek fyrst biskupum várum Þorláki ok Katli, ok sýnda ek bæði þeim ok Sæmundi presti.",
+  "en_text": "unk",
+  "tokens": [
+    {
+      "text": "Íslendingabók",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "proper noun, feminine",
+          "analysis": "accusative singular of"
+        }
+      ],
+      "en_text": "the Book of Icelanders",
+      "en_keywords": [
+        [
+          "BOOK",
+          "ICELANDERS"
+        ]
+      ]
+    },
+    {
+      "text": "gørða",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "verb",
+          "analysis": "1st singular past of"
+        }
+      ],
+      "en_text": "composed",
+      "en_keywords": [
+        [
+          "BUILD",
+          "COMPOSE",
+          "MAKE",
+          "WRITE"
+        ]
+      ]
+    },
+    {
+      "text": "ek",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "pronoun",
+          "analysis": "nominative singular of"
+        }
+      ],
+      "en_text": "I",
+      "en_keywords": [
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "text": "fyrst",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "adverb",
+          "analysis": null
+        }
+      ],
+      "en_text": "first",
+      "en_keywords": [
+        [
+          "FIRST"
+        ]
+      ]
+    },
+    {
+      "text": "biskupum",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "noun, masculine",
+          "analysis": "dative plural of"
+        }
+      ],
+      "en_text": "for... bishops",
+      "en_keywords": [
+        [
+          "BISHOP"
+        ]
+      ]
+    },
+    {
+      "text": "várum",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "possessive adjective",
+          "analysis": "dative plural masculine of"
+        }
+      ],
+      "en_text": "our",
+      "en_keywords": [
+        [
+          "OUR",
+          "US"
+        ]
+      ]
+    },
+    {
+      "text": "Þorláki",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "proper noun, masculine",
+          "analysis": "dative singular of"
+        }
+      ],
+      "en_text": "Thorlak",
+      "en_keywords": [
+        [
+          "THORLAK"
+        ]
+      ]
+    },
+    {
+      "text": "ok",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "conjunction",
+          "analysis": null
+        }
+      ],
+      "en_text": "and",
+      "en_keywords": [
+        [
+          "ALSO",
+          "BUT",
+          "THOUGH"
+        ]
+      ]
+    },
+    {
+      "text": "Katli",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "proper noun, masculine",
+          "analysis": "dative singular of"
+        }
+      ],
+      "en_text": "Ketil",
+      "en_keywords": [
+        [
+          "KETIL"
+        ]
+      ]
+    },
+    {
+      "text": "ok",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "conjunction",
+          "analysis": null
+        }
+      ],
+      "en_text": "and",
+      "en_keywords": [
+        [
+          "ALSO",
+          "BUT",
+          "THOUGH"
+        ]
+      ]
+    },
+    {
+      "text": "sýnda",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "verb",
+          "analysis": "3rd singular past of"
+        }
+      ],
+      "en_text": "showed (it)",
+      "en_keywords": [
+        [
+          "SHOW"
+        ]
+      ]
+    },
+    {
+      "text": "ek",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "pronoun",
+          "analysis": "nominative singular of"
+        }
+      ],
+      "en_text": "I",
+      "en_keywords": [
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "text": "bæði",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "conjunction",
+          "analysis": null
+        }
+      ],
+      "en_text": "both",
+      "en_keywords": [
+        [
+          "BOTH"
+        ]
+      ]
+    },
+    {
+      "text": "þeim",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "demonstrative used as pronoun",
+          "analysis": "dative plural masculine of"
+        }
+      ],
+      "en_text": "to them",
+      "en_keywords": [
+        [
+          "THAT"
+        ]
+      ]
+    },
+    {
+      "text": "ok",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "conjunction",
+          "analysis": null
+        }
+      ],
+      "en_text": "and",
+      "en_keywords": [
+        [
+          "ALSO",
+          "BUT",
+          "THOUGH"
+        ]
+      ]
+    },
+    {
+      "text": "Sæmundi",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "proper noun, masculine",
+          "analysis": "dative singular of"
+        }
+      ],
+      "en_text": "to... Saemund",
+      "en_keywords": [
+        [
+          "SAEMUND"
+        ]
+      ]
+    },
+    {
+      "text": "presti",
+      "parts_of_speech": [
+        {
+          "part_of_speech": "noun, masculine",
+          "analysis": "dative singular of"
+        }
+      ],
+      "en_text": "the priest",
+      "en_keywords": [
+        [
+          "PRIEST"
+        ]
+      ]
+    }
+  ]
+}

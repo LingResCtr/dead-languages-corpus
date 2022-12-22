@@ -31,13 +31,32 @@ The [BCP-47 codes](https://www.w3.org/International/articles/bcp47/) included in
 
 ## Dataset Structure
 
+Each line contains data structured in JSON.  See [text_sample.txt](./text_sample.txt) for an example of a single line with pretty formatting for JSON.
+
 ### Data Instances
 
 [More Information Needed]
 
 ### Data Fields
 
-[More Information Needed]
+---
+ id: "system ID for this particular text chunk"
+ language: "ISO language code"
+ text: "chunk of text in the target language"
+ en\_text: (?... not sure yet)
+ tokens: "list of individual tokens in the text chunk (in JSON)"
+
+---
+ tokens:
+   - text: "the specific string glossed from the text chunk"
+   - parts\_of\_speech: "list of elements of grammatical analysis (in JSON)"
+   - en\_text: "translation of the text in English"
+   - en\_keywords: "system-internal tags applied to this token"
+
+---
+parts\_of\_speech:
+  - part\_of\_speech: "typically invariable grammatical features of this word"
+  - analysis: "grammatical information for this word that typical varies from instance to instance"
 
 ### Data Splits
 
